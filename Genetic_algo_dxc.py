@@ -1,7 +1,7 @@
 """
 Date: 03/2019
 
-Author: Xiaocong Du
+Author: XD
 
 Target: Learn to use Genetic Algorithm to find a peak Relative Humidity in a year.
 
