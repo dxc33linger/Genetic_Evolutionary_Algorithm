@@ -10,8 +10,8 @@ Pandas
 
 ## Genetic Algorithm
 ### Find max Humidity:
-<img src="https://github.com/dxc33linger/Genetic_Evolutionary_Algorithm/blob/master/image/humidity.png" width="150" height="100" alt="Humidity"/>
+<img src="https://github.com/dxc33linger/Genetic_Evolutionary_Algorithm/blob/master/image/humidity.png" width="800" height="700" alt="Humidity"/>
 
 ### Travel Sales Problem:
-![image](https://github.com/dxc33linger/Genetic_Evolutionary_Algorithm/blob/master/image/TSP.png)
-      
+
+<img src="https://github.com/dxc33linger/Genetic_Evolutionary_Algorithm/blob/master/image/TSP.png" width="800" height="700" alt="Humidity"/>      
