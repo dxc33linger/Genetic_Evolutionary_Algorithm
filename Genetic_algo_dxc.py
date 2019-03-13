@@ -22,7 +22,7 @@ RH = df['RH']
 
 DNA_length = 30           
 Population_size = 100          
-Cross_rate = 0.8         
+Cross_rate = 0.5         
 Mutation_rate = 0.005   
 num_epoch = 100    
 X_range = [0, 365]
