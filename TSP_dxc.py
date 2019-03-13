@@ -112,8 +112,11 @@ class TSP(object):
 			plt.annotate(i, (self.city_position[:, 0][i].T, self.city_position[:, 1][i].T))
 		
 		plt.plot(lx.T, ly.T, 'g-')
-		plt.text(-0.05, -0.05, "Total distance=%.2f" % total_d, fontdict={'size': 20, 'color': 'green'})
+		plt.text(-0.05, -0.05, "Total distance=%.2f" % total_d, fontdict={'size': 16, 'color': 'green'})
 		# print(self.city_position[:, 0])
+		plt.ylabel('Y coordinate')
+		plt.xlabel('X coordinate')
+		plt.title('Find the nearest route with Genetic Algorithm')
 
 		plt.xlim((-0.1, 1.1))
 		plt.ylim((-0.1, 1.1))

@@ -69,13 +69,16 @@ pop = np.random.randint(2, size=(Population_size, DNA_length))   # initialize th
 
 plt.ion()       
 x = np.linspace(*data_range, num=366)   # Unpacking Argument Lists
-plt.plot(np.linspace(*X_range, num=366) , get_fitness(x))
+plt.plot(np.linspace(*X_range, num=366) , get_fitness(x), c = 'k')
+plt.ylabel('Humidity')
+plt.xlabel('Day')
+plt.title('Find the highest humidity with Genetic Algorithm')
 
 for _ in range(num_epoch):
 	fitness = get_fitness(translateDNA(pop))    # compute function value by extracting DNA
 
 	if 'sca' in globals(): sca.remove()
-	sca = plt.scatter(translateDNA(pop), fitness, s=100, lw=0, c='red', alpha=0.5); plt.pause(0.05)
+	sca = plt.scatter(translateDNA(pop), fitness, s=100, lw=0, c='green', alpha=0.5); plt.pause(0.05)
 
 	print("iteration {} Most fitted DNA:{} ".format(_, pop[np.argmax(fitness), :]))
 	pop = select(pop, fitness)
