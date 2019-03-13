@@ -1,4 +1,5 @@
-# Genetic_Evolutionary_Algorithm
+# Genetic and Evolutionary Algorithm implementation in Python
+
 Learn to use Genetic Algorithm and Evolutional Algorithm.
 
 ## Environment 
@@ -8,19 +9,25 @@ NumPy
 
 Pandas
 
+matplotlib
+
 
 ## Genetic Algorithm
 
-### Find max Humidity:
-#### [Dataset](https://archive.ics.uci.edu/ml/datasets/Air+Quality) 
+### Example 1: Find max Humidity
+#### [Dataset: Air Quality Dataset ](https://archive.ics.uci.edu/ml/datasets/Air+Quality) 
 #### [Code](https://github.com/dxc33linger/Genetic_Evolutionary_Algorithm/blob/master/Genetic_algo_dxc.py)
 <img src="https://github.com/dxc33linger/Genetic_Evolutionary_Algorithm/blob/master/image/humidity.png" width="500" alt="Humidity"/>
 
 
-### Travel Sales Problem:
+### Example 2: Travel Sales Problem
 #### [What is TSP?](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
 #### [Code](https://github.com/dxc33linger/Genetic_Evolutionary_Algorithm/blob/master/TSP_dxc.py)
 <img src="https://github.com/dxc33linger/Genetic_Evolutionary_Algorithm/blob/master/image/TSP.png" width="500"  alt="TSP"/>      
+
+
+
+## Evolutionary Algorithm
 
 
 
