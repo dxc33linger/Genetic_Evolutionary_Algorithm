@@ -9,9 +9,9 @@ NumPy
 Pandas
 
 ## Genetic Algorithm
-### Find max Humidity:
-<img src="https://github.com/dxc33linger/Genetic_Evolutionary_Algorithm/blob/master/image/humidity.png" width="600" alt="Humidity"/>
+### [Find max Humidity:](https://github.com/dxc33linger/Genetic_Evolutionary_Algorithm/blob/master/Genetic_algo_dxc.py)
+<img src="https://github.com/dxc33linger/Genetic_Evolutionary_Algorithm/blob/master/image/humidity.png" width="500" alt="Humidity"/>
 
-### Travel Sales Problem:
+### [Travel Sales Problem:](https://github.com/dxc33linger/Genetic_Evolutionary_Algorithm/blob/master/TSP.py)
 
-<img src="https://github.com/dxc33linger/Genetic_Evolutionary_Algorithm/blob/master/image/TSP.png" width="600"  alt="Humidity"/>      
+<img src="https://github.com/dxc33linger/Genetic_Evolutionary_Algorithm/blob/master/image/TSP.png" width="500"  alt="Humidity"/>      
