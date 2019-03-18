@@ -26,7 +26,6 @@ matplotlib
 <img src="https://github.com/dxc33linger/Genetic_Evolutionary_Algorithm/blob/master/image/TSP.png" width="500"  alt="TSP"/>      
 
 
-
 ## Evolutionary Algorithm
 
 
