@@ -20,11 +20,11 @@ df = pd.read_excel('AirQualityUCI.xlsx', sheet_name='AirQualityUCI')
 RH = df['RH']
 
 
-DNA_length = 30           
+DNA_length = 9          
 Population_size = 100          
-Cross_rate = 0.5         
+Cross_rate = 0.3         
 Mutation_rate = 0.005   
-num_epoch = 100    
+num_epoch = 150    
 X_range = [0, 365]
 start_point = 0# np.random.randint(0, RH.size-364) 
 data_range = [start_point, start_point+365]
@@ -37,6 +37,10 @@ def get_fitness(x):
 
 def translateDNA(pop): # convert binary 'pop' to decimal value within range X_range
 	DNA = pop.dot(2 ** np.arange(DNA_length)[::-1]) / float(2**DNA_length-1) * X_range[1]
+	# print(2 ** np.arange(DNA_length)[::-1])
+	# print(pop.dot(2 ** np.arange(DNA_length)[::-1]))
+	# print(float(2**DNA_length-1))
+	# print(DNA,'\n')
 	return [int(round(dna)) for dna in DNA]
 
 
@@ -66,7 +70,7 @@ def mutate(child):
 
 
 pop = np.random.randint(2, size=(Population_size, DNA_length))   # initialize the pop DNA
-
+# print(pop)
 plt.ion()       
 x = np.linspace(*data_range, num=366)   # Unpacking Argument Lists
 plt.plot(np.linspace(*X_range, num=366) , get_fitness(x), c = 'k')
@@ -76,6 +80,7 @@ plt.title('Find the highest humidity with Genetic Algorithm')
 
 for _ in range(num_epoch):
 	fitness = get_fitness(translateDNA(pop))    # compute function value by extracting DNA
+	# print(translateDNA(pop))
 
 	if 'sca' in globals(): sca.remove()
 	sca = plt.scatter(translateDNA(pop), fitness, s=100, lw=0, c='green', alpha=0.5); plt.pause(0.05)
