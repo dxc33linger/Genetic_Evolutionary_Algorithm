@@ -11,7 +11,7 @@ Pandas
 
 matplotlib
 
-
+**************************************************************************************************************************************
 ## [Evolutionary algorithm](https://en.wikipedia.org/wiki/Evolutionary_algorithm) includes:
 
 * Genetic algorithm
@@ -30,6 +30,8 @@ matplotlib
 
 * Learning classifier system 
 
+
+**************************************************************************************************************************************
 ## Genetic Algorithm
 
 ### Example 1: Find max Humidity
@@ -44,10 +46,11 @@ matplotlib
 <img src="https://github.com/dxc33linger/Genetic_Evolutionary_Algorithm/blob/master/image/TSP.png" width="500"  alt="TSP"/>      
 
 
+**************************************************************************************************************************************
 ## Evolutionary Strategy
 
 
-
+**************************************************************************************************************************************
 #### Reference:
 1. S. De Vito, E. Massera, M. Piga, L. Martinotto, G. Di Francia, On field calibration of an electronic nose for benzene estimation in an urban pollution monitoring scenario, Sensors and Actuators B: Chemical, Volume 129, Issue 2, 22 February 2008, Pages 750-757, ISSN 0925-4005
 2. https://morvanzhou.github.io/tutorials/machine-learning/evolutionary-algorithm/
