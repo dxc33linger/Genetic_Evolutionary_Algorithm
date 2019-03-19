@@ -1,7 +1,8 @@
-# Genetic and Evolutionary Algorithm implementation in Python
+# Evolutionary Algorithm implementation in Python
 
 Learn to use Genetic Algorithm and Evolutional Algorithm.
 
+**************************************************************************************************************************************
 ## Environment 
 Python 3.6.4
 
