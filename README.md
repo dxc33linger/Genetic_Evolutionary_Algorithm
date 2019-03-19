@@ -15,12 +15,18 @@ matplotlib
 ## [Evolutionary algorithm](https://en.wikipedia.org/wiki/Evolutionary_algorithm) includes:
 
 > Genetic algorithm 
-Genetic programming 
-Evolutionary programming 
-Gene expression programming 
-Evolution strategy .
-Differential evolution 
-Learning classifier system 
+
+> Genetic programming 
+
+> Evolutionary programming 
+
+> Gene expression programming 
+
+> Evolution strategy 
+
+> Differential evolution 
+
+> Learning classifier system 
 
 ## Genetic Algorithm
 
@@ -36,7 +42,7 @@ Learning classifier system
 <img src="https://github.com/dxc33linger/Genetic_Evolutionary_Algorithm/blob/master/image/TSP.png" width="500"  alt="TSP"/>      
 
 
-## Evolutionary Algorithm
+## Evolutionary Strategy
 
 
 
