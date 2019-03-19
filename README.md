@@ -12,6 +12,16 @@ Pandas
 matplotlib
 
 
+## [Evolutionary algorithm](https://en.wikipedia.org/wiki/Evolutionary_algorithm) includes:
+
+> Genetic algorithm 
+Genetic programming 
+Evolutionary programming 
+Gene expression programming 
+Evolution strategy .
+Differential evolution 
+Learning classifier system 
+
 ## Genetic Algorithm
 
 ### Example 1: Find max Humidity
