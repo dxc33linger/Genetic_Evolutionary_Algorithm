@@ -14,21 +14,21 @@ matplotlib
 
 ## [Evolutionary algorithm](https://en.wikipedia.org/wiki/Evolutionary_algorithm) includes:
 
-> Genetic algorithm
+* Genetic algorithm
   * This is the most popular type of EA. One seeks the solution of a problem in the form of strings of numbers (traditionally binary, although the best representations are usually those that reflect something about the problem being solved), by applying operators such as recombination and mutation (sometimes one, sometimes both). This type of EA is often used in optimization problems. Another name for it is fetura, from the Latin for breeding.
 
- Genetic programming 
+* Genetic programming 
 
-> Evolutionary programming 
+* Evolutionary programming 
 
-> Gene expression programming 
+* Gene expression programming 
 
-> Evolution strategy 
+* Evolution strategy 
   * Works with vectors of real numbers as representations of solutions, and typically uses self-adaptive mutation rates.
 
-> Differential evolution 
+* Differential evolution 
 
-> Learning classifier system 
+* Learning classifier system 
 
 ## Genetic Algorithm
 
@@ -51,3 +51,5 @@ matplotlib
 #### Reference:
 1. S. De Vito, E. Massera, M. Piga, L. Martinotto, G. Di Francia, On field calibration of an electronic nose for benzene estimation in an urban pollution monitoring scenario, Sensors and Actuators B: Chemical, Volume 129, Issue 2, 22 February 2008, Pages 750-757, ISSN 0925-4005
 2. https://morvanzhou.github.io/tutorials/machine-learning/evolutionary-algorithm/
+3. https://en.wikipedia.org/wiki/Evolutionary_algorithm
+4. https://towardsdatascience.com/introduction-to-evolutionary-algorithms-a8594b484ac
