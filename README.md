@@ -14,15 +14,17 @@ matplotlib
 
 ## [Evolutionary algorithm](https://en.wikipedia.org/wiki/Evolutionary_algorithm) includes:
 
-> Genetic algorithm 
+> Genetic algorithm
+  * This is the most popular type of EA. One seeks the solution of a problem in the form of strings of numbers (traditionally binary, although the best representations are usually those that reflect something about the problem being solved), by applying operators such as recombination and mutation (sometimes one, sometimes both). This type of EA is often used in optimization problems. Another name for it is fetura, from the Latin for breeding.
 
-> Genetic programming 
+ Genetic programming 
 
 > Evolutionary programming 
 
 > Gene expression programming 
 
 > Evolution strategy 
+  * Works with vectors of real numbers as representations of solutions, and typically uses self-adaptive mutation rates.
 
 > Differential evolution 
 
